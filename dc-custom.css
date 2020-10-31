@@ -1,0 +1,207 @@
+/* September 2020 UX Component Updates */
+.intro-content-container{margin:7px}
+.std-content-container{margin:10px}
+.list-group-item{border:none;font-size:14px;font-weight:bold}
+
+.cat-content{color:#333;font-weight:200;font-size:12px;margin-left:20px}
+.line-sep{border-right:1px solid #777777}
+.item-content-container{width:250px;margin:10px}
+.fw-item-content-container{width:400px;margin:10px}
+.item-headline{font-weight:bold;font-size:12px;text-transform: uppercase}
+.item-copy{font-size:12px;}
+.item-section-headline{font-size:14px;font-weight:600;color:red;text-transform: uppercase}
+.inner-item-content-container{margin-top:15px}
+.circle{background-color:darkred;border:2px solid darkred;border-radius:45px;width:10px;height:10px;margin-top:5px;display:none}
+.blk-hero-bkgd{height:500px;width:100%;background-color:#000000}
+.list-group-item{background-color:transparent}
+.item-box-container{height:350px;width:300px;background-color:rgba(255,255,255,.8);box-shadow:3px 3px 4px #999999}
+.address-item-container{height:150px;width:300px;background-color:rgba(255,255,255,.8);box-shadow:3px 3px 4px #999999;margin:10px}
+.nav-component{height:100px;background-color:#FFFFFF}
+.logo-container{margin:10px}
+.nav-component a{color:#000000}
+.half-container{height:220px;width:300px;box-shadow: 2px 2px 3px #777777;margin:10px}
+.full-container{height:445px;width:300px;box-shadow: 2px 2px 3px #777777;margin:10px}
+
+
+/* Background-Video */
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:700px;
+}
+
+	
+/*E-commerce  */
+.border-box-product{border:1px solid #f5f5f5}
+.box-product-height{height:300px}
+.box-product-title{height:50px}
+.box-product-image {height:200px}
+.box-product-cta {height:50px;width:100%;}
+
+/*Fonts */
+.roboto{font-family:"roboto", serif}
+	.serif{font-family:"PT Serif", serif}
+
+	.sans{font-family:"Open Sans", sans-serif}
+	
+/* Font Sizes: Font size standard is 12px and goes up by the rule of 6 to superheadline*/
+	.superheadline{font-size:36px;font-weight:900}
+	.special{font-size:36px;font-weight:800;color:#222222}
+	.headline{font-size:28px;font-weight:600}
+	.subheadline{font-size:22px;font-weight:300}
+	.copy{font-size:16px;font-weight:400}
+	.fineprint{font-size:12px;font-weight:200}
+	
+	/* colors fonts and backgrounds Basic color palette with accent */
+	.blackfont{color:#111111}
+	.drkgreyfont{color:#555555}
+	.greyfont{color:#777777}
+	.whitefont{color:#FFFFFF}
+	.bluefont{color:#222c6a}
+    .powderblue{color:#AFD6F6}
+	.powdergreen{color:#83D891}
+	.white{color:#FFFFFF}
+	.powdergrey{color:#393939}
+	
+/* background colors Note: Blue background can only use white font */
+	.bluebkgd{background-color:#222C6A;color:#fff!important}
+	.whitebkgd{background-color:#ffffff}
+	.blkbkgd{background-color:#000;color:#fff!important}
+	.powderbluebkgd{background-color: #afd6f6}
+	.powdergreenbkgd{background-color:#83d891}
+
+/* Font Transform */    
+.uppercase{text-transform: uppercase}
+	.lowercase{text-transform: lowercase}
+	.capitalize{text-transform: capitalize}
+	.bold{font-weight:bold}
+	.center-content{text-align:center}
+	.medium{font-weight:600}
+/*Padding Standards*/
+	/*spacers Rule of 6 */
+	.std-spacer{height:6px}
+	.sm-spacer{height:12px}
+	.md-spacer{height:18px}
+	.lg-spacer{height:24px}
+	.xl-spacer{height:36px}
+	.xxl-spacer{height:175px;}
+	/* Top Bottom Padding Rule of 6 */
+	.std-tb-padding{padding-top:6px; padding-bottom:6px}
+	.sm-tb-padding{padding-top:12px; padding-bottom:12px}
+	.md-tb-padding{padding-top:18px; padding-bottom:18px}
+	.lg-tb-padding{padding:24px 0}
+	.xl-tb-padding{padding:40px 0}
+	/* left right padding rule of 6*/
+	.std-lr-padding{padding-left:6px; padding-right:6px}
+	.sm-lr-padding{padding-left: 12px; padding-right: 12px}
+	.md-lr-padding{padding-left:18px; padding-right: 18px}
+	.lg-lr-padding{padding-left: 26px; padding-right: 26px}
+	.xl-lr-padding{padding-left: 40px; padding-right: 40px}
+	/* Overall Square Padding Rule of 6 */
+	.std-overall-padding{padding:6px}
+	.sm-overall-padding{padding:12px}
+	.md-overall-padding{padding:18px}
+	.lg-overall-padding{padding:24px}
+	.xl-overall-padding{padding:40px}
+	
+/* Content-sections */
+	/* square content containers note no width is greater then 450 px to accomidate mobile */
+	.sm-content-section-sq{height:200px;width:200px}
+	.md-content-section-sq{height:400px;width:400px}
+	.lg-content-section-sq{height:450px;width:4500px}
+	/* rectangle containers are designed to specific heights width are scaled to column size */
+	.sm-content-section-rec{width:100%;height:200px}
+	.md-content-section-rec{width:100%;height:600px}
+	.lg-content-section-rec{width:100%;height:800px}
+/* same as above but with built in overall small padding 12px */
+	.sm-content-section-sqp{height:200px;width:200px;padding:12px}
+	.md-content-section-sqp{height:400px;width:400px;padding:12px}
+	.lg-content-section-sqp{height:450px;width:450px;padding:12px}
+	.sm-content-section-recp{width:100%;height:200px;padding:12px}
+	.md-content-section-recp{width:100%;height:600px;padding:12px}
+	.lg-content-section-recp{width:100%;height:800px;padding:12px}
+/* Used for uniform section heights */
+	.sm-height-box{height:200px}
+	.md-height-box{height:300px}
+	.lg-height-box{height:400px}
+	.xl-height-box{height:600px}
+	.xxl-height-box{height:800px}
+	.equal-height-box{height:100%}
+/*used for uniform section widths */	
+	.sm-width-box{width:200px}
+	.md-width-box{width:300px}
+	.lg-width-box{width:400px}
+	.xl-width-box{width:100%}
+/* used to create width limits on content for uniform spacing */	
+	.sm-reduce-content{width:90%}
+	.md-reduce-content{width:70%}
+	.lg-reduce-content{width:45%}
+	.xl-reduce-content{width:35%}
+	.half-reduce-content{width:50%}	
+	
+	
+	
+	
+	
+/*utility calls */
+
+.blk-boxshadow{box-shadow: 4px 2px 3px 1px}
+.gry-boxshadow{box-shadow: 4px 2px 3px 1px #393939}
+	.sticky{top:0 ;z-index:10}
+/* Button setup */
+	.sq-button-outline{border:1px solid #000;width:50%;padding:10px 80px;font-size:18px;font-weight:bolder;background-color:#222c6a;color:#fff}
+	.sq-button-outline:hover {width:50%;padding:10px 80px;font-size:18px;font-weight:bolder;background-color:#000 ;color:#fff ;box-shadow: 4px 2px 3px 1px}
+	.lg-sq-button-outline{border:1px solid #555;width:100%;padding:10px 100px;font-size:18px;font-weight:bolder;background-color:#222c6a;color:#fff}
+	.lg-sq-button-outline:hover {width:100%;padding:10px 100px;font-size:18px;font-weight:bolder;background-color:#777 ;color:#fff ;box-shadow: 4px 2px 3px 1px}
+	.wlg-sq-button-outline{border:1px solid #fff;width:40%;padding:18px 50px;font-size:18px;font-weight:bolder;color:#fff}
+
+/* Body setup */
+	body{background-color:#fff;font-family:"Open Sans", sans-serif;color:#555}
+/*header setup */
+	.header-container{width:100%;background-color:#fff;height:65px;}
+.logo-box{padding:15px 25px; Background-color:#fff}
+.header-image{background-repeat:no-repeat;height:750px;}
+/*navigation setup */
+	.nav-element{font-weight:bolder;color:#000;text-transform: uppercase}
+	.nav-active {color:#222c6a;list-style: none}
+	.cd-primary-nav .cd-secondary-nav{background:#fff}
+	
+	/*hero setup **/
+	.overall-hero-container{height:400px}
+	.hero-content-wrapper{padding: 12% }
+	.hero-content-block{height:300px;width:400px;background-color:#fff;opacity:.7}
+	.carousel-item img{height:600px}
+	.hero-center-content{padding:80px}
+	.nav-list{list-style: none}
+	/* section containers*/
+	.sm-container-two{height:210px;width:410px;padding:5px}
+	.md-container-two{height:410px;width:810px;padding:5px}
+	.lg-container-two{height:610px;width:100%;padding:5px}
+	.section-center-content{padding: 135px 1px}
+	/*decorations */
+	.sideborder{border-left:2px solid #f6f6f6}
+/*Bootstrap 4 overrides */
+	.card-header{text-align: center;padding:1px;border:1px ;border-radius:1px ;height:10px}
+	.card{border:none}
+	ul li {list-style: none}
+	hr{margin:1px;padding: 1px 5px;color:#ffffff}
+	
+/*picture grid spacers */
+	.w-spacer{width:10px}
+	.nav-pills .nav-link.active, .nav-pills .show>.nav-link{;color: #222;background-color:#fff;border-radius:1px;font-weight:bold}
+	a {color:#999}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {border:none}
+.nav-link.active{font-weight:bold;}
+.nav-link a {color:#707070}
